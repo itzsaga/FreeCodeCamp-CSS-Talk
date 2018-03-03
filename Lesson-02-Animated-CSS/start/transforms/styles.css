@@ -13,15 +13,15 @@
     text-align: center;
 }
 .translateXY {
-    transform: translate(200px, -100px)
+    transform: translate(200px, -100px);
 }
 
 .translateX {
-
+    transform: translateX(100px);
 }
 
 .translateY {
-
+    
 }
 .translateZ {
     margin: 0 auto;

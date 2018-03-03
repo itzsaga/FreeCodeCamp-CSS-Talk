@@ -86,7 +86,7 @@
 }
 .scaleXY {
     margin: 50px auto;
-
+    animation: scaleXY 3s linear 0s infinite normal none;
 }
 
 
@@ -101,5 +101,6 @@
 }
 
 @keyframes scaleXY {
-    
+    from{transform: scale(0,0)}
+    to{transform: scale(1.5)}
 }

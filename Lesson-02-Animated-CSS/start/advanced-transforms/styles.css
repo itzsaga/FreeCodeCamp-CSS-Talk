@@ -26,8 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes slideRight {
-    0% {transform: translate(0,0);}
-    100% {transform: translate(600px, 0px);}
+    0% {transform: translate(0,0);
+        box-shadow: 0 0 0 rgba(199, 136, 153, 0);}
+    25% {box-shadow: -8px 0 4px 0px rgba(199, 136, 153, 1)}
+    100% {transform: translate(600px, 0px);
+        box-shadow: 0 0 0 rgba(199, 136, 153, 0);}
 }
 
 @keyframes textBlur {

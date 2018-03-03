@@ -61,6 +61,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 800px;
     height: 600px;
     background: lightslategray;
+    position: relative;
+    left: 400px;
+    top: -450px;
+    box-shadow: 5px 10px 20px black inset;
+    z-index: -3;
 }
 
 .textReveal {

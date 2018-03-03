@@ -42,11 +42,11 @@
 }
 
 .rotateX {
-
+    animation: rotX 3s linear 0s infinite normal none;
 }
 
 .rotateY {
-
+    animation: rotY 3s linear 0s infinite normal none;
 }
 .rotateZ {
 
@@ -54,11 +54,13 @@
 
 
 @keyframes rotX {
-
+    from{transform: rotateX(0deg)}
+    to{transform: rotateX(359deg)}
 }
 
 @keyframes rotY {
-
+    from{transform: rotateY(0deg)}
+    to{transform: rotateY(359deg)}
 }
 
 @keyframes rotZ {

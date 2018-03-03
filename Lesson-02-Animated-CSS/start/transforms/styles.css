@@ -25,7 +25,7 @@
 }
 .translateZ {
     margin: 0 auto;
-
+    transform: perspective(500px) translateZ(100px);
 }
 
 .translate3D {

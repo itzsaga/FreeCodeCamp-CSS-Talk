@@ -76,5 +76,13 @@ h1, h2, h3, h4, h5, h6 {
    }
 
 @keyframes panelDrop {
-
+    0% {border: 2px solid rgba(0, 0, 0, 0);
+        transform: perspective(500px) translateZ(0px);}
+    3% {border: 2px solid rgba(0, 0, 0, 1);
+        transform: perspective(500px) translateZ(0px);}
+    50% {border: 2px solid rgba(0, 0, 0, 0);
+        transform: perspective(500px) translateZ(-200px);}
+    75% {transform: perspective(500px) translateZ(-200px);}
+    100% {transform: perspective(500px) translateZ(-200px) translateX(800px);
+        visibility: hidden}
 }
